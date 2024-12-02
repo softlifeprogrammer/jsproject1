@@ -21,6 +21,6 @@ function getHumanChoice() {
     return userInput;
 }
 
-// Test the function
-console.log(getComputerChoice());
-console.log(getHumanChoice());
+// Global variables to track scores
+let humanScore = 0;
+let computerScore = 0;
